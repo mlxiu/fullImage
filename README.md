@@ -50,7 +50,8 @@ $(document).ready(function(){
       $(this).addClass('img-fluid');
       var originHtml = $(this).parent().html();
       var img = $(this).attr('src');
-      var newhtml = '<a href="' + img + '" data-toggle="lightbox" data-gallery="topics-gallery">' + originHtml + '</a>';
+      var newhtml = '<a href="' + img + '" data-toggle="lightbox" data-gallery="topics-gallery">' + 
+                     originHtml + '</a>';
 
       $(this).parent().empty().html(newhtml);
   });
