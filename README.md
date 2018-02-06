@@ -1,17 +1,17 @@
-# fullImage
-DIV内的图片，点击后放大查看。
+# lightbox
+div 内的图片，点击后放大查看。
 
 
 # 使用第三方库
 
-div内点击图片放大的库比较多。这里使用的是 **Lightbox for Bootstrap**
+div 内点击图片放大的库比较多。这里使用的是 **Lightbox for Bootstrap**
 
-> 官网： http://ashleydw.github.io/lightbox/
+> 官网： http://ashleydw.github.io/lightbox/  
 > github: https://github.com/ashleydw/lightbox  
 > cdn: http://www.bootcdn.cn/ekko-lightbox/
 
 # 规则
-使用别人的东西，就得遵守别人的规则。 Lightbox的结构是这样的：
+使用别人的东西，就得遵守别人的规则。 Lightbox 的结构是这样的：
 
 ```
 <a href="xxx.jpg" data-toggle="lightbox">
